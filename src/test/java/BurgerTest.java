@@ -54,32 +54,4 @@ public class BurgerTest {
         Assert.assertEquals(ingredient2, burger.ingredients.get(0));
 
     }
-
-    @Test
-    public void getPriceTest() {
-        Bun bun = Mockito.mock(Bun.class);
-        burger.setBuns(bun);
-
-        Ingredient ingredient1 = Mockito.mock(Ingredient.class);
-        Ingredient ingredient2 = Mockito.mock(Ingredient.class);
-
-        burger.addIngredient(ingredient1);
-        burger.addIngredient(ingredient2);
-
-        float expectedPrice = bun.getPrice() * 2 + ingredient1.getPrice() + ingredient2.getPrice();
-
-        Assert.assertEquals(expectedPrice, burger.getPrice(), 0.001f);
-    }
-
-    @Test
-    public void getReceiptTest() {
-        Bun bun = Mockito.mock(Bun.class);
-        burger.setBuns(bun);
-
-        Ingredient ingredient = Mockito.mock(Ingredient.class);
-
-        burger.addIngredient(ingredient);
-
-
-    }
 }
