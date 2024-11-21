@@ -13,13 +13,13 @@ import java.util.Collection;
 import static org.mockito.Mockito.when;
 
 @RunWith(Parameterized.class)
-public class BurgerGetPriceParameterizedTest {
+public class BurgerGetPriceTest {
     private final Bun bun;
     private final Ingredient[] ingredients;
     private final float price;
     private static final float DELTA = 0.001f;
 
-    public BurgerGetPriceParameterizedTest(Bun bun, Ingredient[] ingredients, float price) {
+    public BurgerGetPriceTest(Bun bun, Ingredient[] ingredients, float price) {
         this.bun = bun;
         this.ingredients = ingredients;
         this.price = price;

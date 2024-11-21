@@ -8,12 +8,12 @@ import praktikum.Ingredient;
 import praktikum.IngredientType;
 
 @RunWith(Parameterized.class)
-public class BurgerGetReceiptParameterizedTest {
+public class BurgerGetReceiptTest {
     private final Bun bun;
     private final Ingredient[] ingredients;
     private final String receipt;
 
-    public BurgerGetReceiptParameterizedTest(Bun bun, Ingredient[] ingredients, String receipt) {
+    public BurgerGetReceiptTest(Bun bun, Ingredient[] ingredients, String receipt) {
         this.bun = bun;
         this.ingredients = ingredients;
         this.receipt = receipt;
