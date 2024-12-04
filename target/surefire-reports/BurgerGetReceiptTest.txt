@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: IngredientTest
+Test set: BurgerGetReceiptTest
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in IngredientTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in BurgerGetReceiptTest
